@@ -1,7 +1,7 @@
 [project]
-name = "hid-velocityone-multi-shift"
+name = "hid-velocityone-flightstick"
 version = "0.1.0"
-description = "HID driver for Turtle Beach VelocityOne Multi-Shift racing shifter"
+description = "HID driver for Turtle Beach VelocityOne Flightstick"
 readme = "README.md"
 license = "GPL-2.0-or-later"
 requires-python = ">=3.10"
@@ -14,8 +14,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mtorromeo/hid-velocityone-multi-shift"
-Repository = "https://github.com/mtorromeo/hid-velocityone-multi-shift"
+Homepage = "https://github.com/mtorromeo/hid-velocityone-flightstick"
+Repository = "https://github.com/mtorromeo/hid-velocityone-flightstick"
 
 [project.optional-dependencies]
 dev = [
@@ -23,14 +23,14 @@ dev = [
 ]
 
 [project.scripts]
-hid-velocityone-multi-shift = "hid_velocityone_multi_shift:main"
+hid-velocityone-flightstick = "hid_velocityone_flightstick:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["hid_velocityone_multi_shift"]
+py-modules = ["hid_velocityone_flightstick"]
 
 [tool.basedpyright]
 typeCheckingMode = "standard"
